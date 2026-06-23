@@ -1,6 +1,5 @@
 'use strict';
 
-const createWebSocketStream = require('./lib/stream');
 const extension = require('./lib/extension');
 const PerMessageDeflate = require('./lib/permessage-deflate');
 const Receiver = require('./lib/receiver');
